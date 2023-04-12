@@ -10,7 +10,7 @@ custom:
     mongodb:
       user: admin
       dbAuth: admin
-      password: secret
+      password: ${valor_cifrado}
 
 logging:
   level:
