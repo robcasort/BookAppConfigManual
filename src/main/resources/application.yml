@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: servicio-biometria
+  profiles:
+    active:
+    - '@spring.profiles.active@'
+  data:
+    mongodb:
+      host: 10.0.202.78
+      port: 27017
+      database: springBootMongoDB
+
+custom:
+  data:
+    mongodb:
+      user: admin
+      dbAuth: admin
+      password: clave_cifrada_jCryptoShadow
+
+logging:
+  level:
+    root: INFO
