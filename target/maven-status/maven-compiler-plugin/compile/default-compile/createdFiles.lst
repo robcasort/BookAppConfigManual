@@ -1,5 +1,0 @@
-com\example\demo\model\Book.class
-com\example\demo\BookAppConfigManualApplication.class
-com\example\demo\config\MongoConfig.class
-com\example\demo\repository\BookRepository.class
-com\example\demo\service\BookService.class
