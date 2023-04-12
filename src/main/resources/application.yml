@@ -15,7 +15,7 @@ custom:
     mongodb:
       user: admin
       dbAuth: admin
-      password: clave_cifrada_jCryptoShadow
+      password: ${clave_cifrada_con_algoritmo}
 
 logging:
   level:
